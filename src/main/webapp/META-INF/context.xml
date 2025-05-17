@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/SistemaGestionDeInventarios">
+  <Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="jdbc/data_producto" password="notpirce" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/GestionDeInventarios?zeroDateTimeBehavior=CONVERT_TO_NULL" username="root"/>
+  <Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="jdbc/data_productos" password="notpirce" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/GestionDeInventarios?zeroDateTimeBehavior=CONVERT_TO_NULL" username="root"/>
+  <Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="jdbc/data_productoss" password="notpirce" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/GestionDeInventarios?zeroDateTimeBehavior=CONVERT_TO_NULL" username="root"/>
+  <Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="jdbc/dataa_productos" password="notpirce" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/gestiondeinventarios?zeroDateTimeBehavior=CONVERT_TO_NULL" username="root"/>
+</Context>
