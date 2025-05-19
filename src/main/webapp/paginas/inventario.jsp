@@ -60,65 +60,9 @@
                     </c:forEach>
                 </tbody>
             </table>
-
-
-            <!--        <div class="modal fade" id="modalConfirmar" tabindex="-1" aria-labelledby="modalConfirmarLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content bg-dark text-white">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="modalConfirmarLabel">Confirmar Acción</h5>
-                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p id="modalMensaje">¿Estás seguro de realizar esta acción?</p>
-            
-                                    <form id="formModal" action="InventarioServlet.do" method="post">
-                                        <input type="hidden" name="id" id="modalId" />
-                                        <input type="hidden" name="accion" id="modalAccion" />
-            
-                                        <div class="mb-3">
-                                            <label for="cantidadInput" class="form-label">Cantidad</label>
-                                            <input type="number" class="form-control" id="cantidadInput" name="cantidad" min="1" required>
-                                        </div>
-            
-                                        <button type="submit" class="btn btn-primary">Confirmar</button>
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>-->
-
             <div class="mt-4 ">
                 <a href="index.jsp" class="btn btn-secondary">Volver al menú principal</a>
             </div>
         </div>
-
-        <!--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-        
-            <script>
-                function mostrarFormulario(boton) {
-                    const nombre = boton.getAttribute('data-nombre');
-                    const precio = boton.getAttribute('data-precio');
-                    const id = boton.getAttribute('data-id');
-                    const accion = boton.getAttribute('data-accion');
-        
-                    const modalMensaje = document.getElementById("modalMensaje");
-                    const modalId = document.getElementById("modalId");
-                    const modalAccion = document.getElementById("modalAccion");
-                    const cantidadInput = document.getElementById("cantidadInput");
-        
-                    modalMensaje.innerHTML = "¿Estás seguro de " + (accion === 'vender' ? 'vender' : 'comprar') +
-                        " <strong>" + nombre + "</strong> con un precio de $" + precio + " por unidad?";
-        
-                    modalId.value = id;
-                    modalAccion.value = accion;
-                    cantidadInput.value = 0;
-        
-                    const myModal = new bootstrap.Modal(document.getElementById('modalConfirmar'));
-                    myModal.show();
-                }
-            </script>-->
-
     </body>
 </html>

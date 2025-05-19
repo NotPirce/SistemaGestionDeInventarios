@@ -1,9 +1,15 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ taglib uri="jakarta.tags.core" prefix="c" %>
 <%
+    // Saca el token JWT de la sesion
+    // Busca el pase del usuario
     String token = (String) session.getAttribute("jwt");
+    // Lee el rol desde ese token    
+    // Pregunta que tipo de usuario es
     String rol = com.hemm2025.sistemagestiondeinventarios.util.JwtUtil.obtenerRol(token);
-    request.setAttribute("rol", rol); // <- Esto es clave para que JSTL pueda acceder a "rol"
+//    Lo guarda para la pagina jsp actual
+// Hace que el rol este disponible en la vista
+    request.setAttribute("rol", rol); 
 %>
 
 <!DOCTYPE html>

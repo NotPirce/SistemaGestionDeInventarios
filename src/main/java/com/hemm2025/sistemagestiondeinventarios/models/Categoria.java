@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.hemm2025.sistemagestiondeinventarios.models;
 
 import jakarta.persistence.Basic;
@@ -22,10 +18,7 @@ import jakarta.xml.bind.annotation.XmlTransient;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- *
- * @author notpi
- */
+
 @Entity
 @Table(name = "categoria")
 @XmlRootElement

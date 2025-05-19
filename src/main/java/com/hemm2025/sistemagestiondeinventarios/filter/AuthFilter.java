@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.hemm2025.sistemagestiondeinventarios.filter;
 
 import com.hemm2025.sistemagestiondeinventarios.util.JwtUtil;
@@ -15,10 +11,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- *
- * @author notpi
- */
+
 // Esta etiqueta es la que indica que rutas vamos a estar filtrando
 @WebFilter(urlPatterns = {"*.do", "/admin/*", "/usuario/*"})
 

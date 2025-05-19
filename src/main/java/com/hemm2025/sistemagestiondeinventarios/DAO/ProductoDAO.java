@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.hemm2025.sistemagestiondeinventarios.DAO;
 
 import com.hemm2025.sistemagestiondeinventarios.models.Producto;
